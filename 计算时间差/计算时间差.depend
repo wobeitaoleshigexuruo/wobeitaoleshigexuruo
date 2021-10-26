@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632900648 source:c:\users\刘荣吉\desktop\作业\计算时间差\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633357180 source:c:\users\刘荣吉\desktop\作业\求复数之积\main.c
+	<stdio.h>
+	<stdlib.h>
+
