@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,f1,f2,f3;
+    scanf("%d",&a);
+    f1=a%3;
+    f2=a%5;
+    f3=a%7;
+    if(f1==0&&f2==0&&f3==0)
+    {
+    printf("Can be divisible by 3,5,7.");
+    }
+    else
+        if(f1==0&&f2==0)
+    {
+    printf("Can be divisible by 3,5.");
+    }
+    else
+     if(f2==0&&f3==0)
+    {
+    printf("Can be divisible by 5,7.");
+    }
+    else
+     if(f1==0&&f3==0)
+    {
+    printf("Can be divisible by 3,7.");
+    }
+    else
+     if(f1==0)
+    {
+    printf("Can be divisible by 3.");
+    }
+    else
+     if(f2==0)
+    {
+    printf("Can be divisible by 5.");
+    }
+    else
+     if(f3==0)
+    {
+    printf("Can be divisible by 7.");
+    }
+    else printf("Can not be divisible by 3,5,7.");
+    return 0;
+}
