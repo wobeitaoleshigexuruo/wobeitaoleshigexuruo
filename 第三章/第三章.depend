@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1635673681 source:c:\users\刘荣吉\desktop\作业\第三章\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdio.h>
+
